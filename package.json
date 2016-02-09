@@ -1,0 +1,16 @@
+{
+  "name": "workshop.js.fundamentals",
+  "version": "1.0.0",
+  "description": "Workshop for JavaScript Fundamental concepts",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
