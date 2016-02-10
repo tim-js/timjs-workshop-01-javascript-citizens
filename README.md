@@ -8,15 +8,15 @@ Here's a list of things you need:
 
 * a laptop
 * a code editor
-* Node.js installed on your computer (version 4.x or 5.x)
+* [Node.js][download_node] installed on your computer (version 4.x or 5.x)
 * git installed on your computer (this is actually optional)
 
 ## Setup
 
 Here are some steps you can follow to setup the workshop skeleton.
-All these commands need to be run from the command line (Terminal on Mac/Linux, Cmd on Win).
+All these commands need to be run from the command line (shell/terminal): iTerm on Mac, terminal on Ubuntu, cmd/GitBash on Win.
 
-### Create project folder
+### 1. Create project folder
 
 First, you need to create a new folder somewhere on your computer:
 
@@ -26,7 +26,7 @@ mkdir [PROJECT_NAME]
 cd [PROJECT_NAME]
 ```
 
-### Clone project skeleton
+### 2. Clone project skeleton
 
 Second, you need to clone this repository. If you have git installed, you can:
 
@@ -34,15 +34,15 @@ Second, you need to clone this repository. If you have git installed, you can:
 git clone https://github.com/andreipfeiffer/workshop-js-fundamentals.git ./
 ```
 
-... if you don't have git, you can __[download this repo][download]__ and unzip it in your PROJECT_NAME folder.
+... if you don't have git, you can __[download this repo][download_repo]__ and unzip it in your PROJECT_NAME folder.
 
-### Install dependencies
+### 3. Install dependencies
 
 ```
 npm install
 ```
 
-### Run project
+### 4. Run project
 
 ```
 gulp
@@ -50,4 +50,5 @@ gulp
 
 This should display a URL in the console, where you can load the project page.
 
-[download]: https://github.com/andreipfeiffer/workshop-js-fundamentals/archive/master.zip
+[download_repo]: https://github.com/andreipfeiffer/workshop-js-fundamentals/archive/master.zip
+[download_node]: https://nodejs.org/en/download/
