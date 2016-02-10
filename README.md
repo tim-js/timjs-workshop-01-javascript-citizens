@@ -1,6 +1,20 @@
 #JavaScript Fundamentals Workshop
 
-Welcome to the first JavaScript workshop, organized by tim.js.
+Welcome to the first JavaScript workshop, organized by [tim.js][timjs]. We will cover some fundamental concepts of ES5, and also touch some new features added in ES6. Here is a summary:
+
+* (very) short history
+* primitives
+* arrays
+* objects
+* functions
+* value vs. reference
+* scope, hoisting & TDZ
+* closures
+* strict mode
+* _this_ context
+* typeof vs instanceof vs [Class]
+* iterating Arrays & Objects
+* prototypes
 
 ## Prerequisites
 
@@ -58,3 +72,4 @@ This should display a URL in the console, where you can load the project page.
 
 [download_repo]: https://github.com/andreipfeiffer/workshop-js-fundamentals/archive/master.zip
 [download_node]: https://nodejs.org/en/download/
+[timjs]: http://timjs.ro
