@@ -1,4 +1,4 @@
-#Workshop JS Fundamentals
+#JavaScript Fundamentals Workshop
 
 Welcome to the first JavaScript workshop, organized by tim.js.
 
@@ -30,16 +30,24 @@ cd [PROJECT_NAME]
 
 Second, you need to clone this repository. If you have git installed, you can:
 
-`git clone ... ./`
+```
+git clone https://github.com/andreipfeiffer/workshop-js-fundamentals.git ./
+```
 
-... if you don't have git, then download this repo and unzip it in your PROJECT_NAME folder.
+... if you don't have git, you can __[download this repo][download]__ and unzip it in your PROJECT_NAME folder.
 
 ### Install dependencies
 
-`npm install`
+```
+npm install
+```
 
 ### Run project
 
-`gulp`
+```
+gulp
+```
 
 This should display a URL in the console, where you can load the project page.
+
+[download]: https://github.com/andreipfeiffer/workshop-js-fundamentals/archive/master.zip
