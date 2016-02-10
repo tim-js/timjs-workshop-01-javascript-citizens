@@ -3,6 +3,7 @@
 let gulp        = require('gulp'),
     del         = require('del'),
     browserSync = require('browser-sync').create(),
+    babel       = require('gulp-babel'),
     concat      = require('gulp-concat'),
     sourcemaps  = require('gulp-sourcemaps');
 
@@ -16,6 +17,10 @@ gulp.task('js', ['clean'], () => {
         .src(`${BASE_PATH}/src/*.js`)
         // start sourcemaps
         .pipe(sourcemaps.init())
+        // transpile using Babel to ES5
+        .pipe(babel({
+            presets: ['es2015']
+        }))
         // concatenate all source files into a single file
         .pipe(concat('bundle.js'))
         // output sourcemaps
