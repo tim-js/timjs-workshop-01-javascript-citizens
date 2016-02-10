@@ -9,7 +9,7 @@ Here's a list of things you need:
 * a laptop
 * a code editor
 * [Node.js][download_node] installed on your computer (version 4.x or 5.x)
-* git installed on your computer (this is actually optional)
+* _git installed on your computer (this is optional)_
 
 ## Setup
 
