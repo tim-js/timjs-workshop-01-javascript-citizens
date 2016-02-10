@@ -8,13 +8,15 @@ Welcome to the first JavaScript workshop, organized by [tim.js][timjs]. We will 
 * objects
 * functions
 * value vs. reference
-* scope, hoisting & TDZ
+* scope
+* hoisting & TDZ
 * closures
 * strict mode
 * _this_ context
-* typeof vs instanceof vs [Class]
+* typeof vs. instanceof vs. [Class]
 * iterating Arrays & Objects
 * prototypes
+* a small application, to apply the concepts above
 
 ## Prerequisites
 
