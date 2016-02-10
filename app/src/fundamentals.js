@@ -48,4 +48,4 @@ const o = {
 		console.log('foo xxx');
 	}
 };
-console.log(19);
+console.log(21);
