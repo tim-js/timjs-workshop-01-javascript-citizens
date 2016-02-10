@@ -39,6 +39,7 @@ git clone https://github.com/andreipfeiffer/workshop-js-fundamentals.git ./
 ### 3. Install dependencies
 
 ```
+sudo npm install -g gulp-cli
 npm install
 ```
 
