@@ -14,7 +14,7 @@ Here's a list of things you need:
 ## Setup
 
 Here are some steps you can follow to setup the workshop skeleton.
-All these commands need to be run from the command line (shell/terminal): iTerm on Mac, terminal on Ubuntu, cmd/GitBash on Win.
+All these commands need to be run from the command line (shell/terminal): iTerm on MacOSX, cmd/GitBash on Windows, any terminal on Linux.
 
 ### 1. Create project folder
 
