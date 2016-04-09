@@ -1,6 +1,8 @@
 # JavaScript Fundamentals Workshop
 
-Welcome to the first JavaScript workshop, organized by [tim.js][timjs]. We will cover some fundamental concepts of ES5, and also touch some new features added in ES6.
+Welcome to the first JavaScript workshop, organized by [tim.js][timjs].
+
+We will cover some fundamental concepts of ES5, and also touch some new features added in ES6.
 
 ## Content
 
@@ -14,7 +16,7 @@ Welcome to the first JavaScript workshop, organized by [tim.js][timjs]. We will 
 
 Here's a list of things you need:
 
-1. a laptop
+1. a laptop & power-plug
 2. a code editor (_optional_)
 3. [Node.js][download_node] 4.0+ (_optional_)
 
