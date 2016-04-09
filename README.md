@@ -2,7 +2,7 @@
 
 Welcome to the first JavaScript workshop, organized by [tim.js][timjs].
 
-We will cover some fundamental concepts of ES5, and also touch some new features added in ES6.
+We will dive into the building blocks of the ECMAScript language, explaining in detail how they work & why is it so important to understand them. We will cover some fundamental concepts of ES5, while also touching some new features added in ES6.
 
 ## Content
 
@@ -38,9 +38,10 @@ All these commands need to be run from the command line (shell/terminal):
 First, you need to create a new folder somewhere on your computer:
 
 ```
-cd [WORK_FOLDER]
 mkdir [PROJECT_NAME]
 cd [PROJECT_NAME]
+
+// or create a new "project folder" and navigate to it using your favourite file system tool
 ```
 
 ### 2. Clone project skeleton
