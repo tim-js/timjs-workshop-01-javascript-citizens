@@ -30,6 +30,7 @@ var me = {
 /**
  *  property access
  */
+
 // console.log( me.firstName );
 // console.log( me.skills[1].level );
 
@@ -37,6 +38,7 @@ var me = {
 /**
  *  properties with spaces
  */
+
 // console.log( me['first Name'] );
 
 
@@ -63,6 +65,7 @@ var name = 'Name';
 /**
  *  property descriptors
  */
+
 // console.log( Object.getOwnPropertyDescriptor(me, 'age') );
 // Object.defineProperty(me, 'age', {
 // 	writable: false
@@ -72,6 +75,7 @@ var name = 'Name';
 /**
  *  freezing (seal, preventExtensions)
  */
+
 // Object.freeze(me);
 // me.age = 1;
 // me.city = 'Timisoara';
@@ -82,6 +86,7 @@ var name = 'Name';
 /**
  *  iterations
  */
+
 // console.log( Object.keys(me) );
 Object.keys(me).forEach(function(item) {
 // 	console.log(item);
@@ -98,6 +103,7 @@ for (var prop in you) {
 /**
  *  JSON - JavaScript Object Notation
  */
+
 var data = { name: 'Andrei', age: 34 };
 // console.log( JSON.stringify( data ) );
 var json = '{ "name": "Andrei", "age": 34 }';
@@ -115,4 +121,5 @@ var json = '{ "name": "Andrei", "age": 34 }';
 /**
  *  typeof
  */
+
 // console.log(typeof me);

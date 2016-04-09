@@ -3,6 +3,10 @@
  */
 
 
+/**
+ *  declaration vs expression
+ */
+
 function declaration() {
 	console.log('function declaration');
 }
@@ -20,16 +24,20 @@ var namedExpression = function funcName() {
 };
 // namedExpression();
 
-// setTimeout(function funcName() {
-// 	none;
-// }, 500);
+setTimeout(function funcName() {
+	error;
+}, 500);
 
 
 // IIFE Immediate Invoked Function Expression
 (function() {
-	// console.log('IIFE');
+	console.log('IIFE');
 })();
 
+
+/**
+ *  methods
+ */
 
 // object method
 var user = {
@@ -37,8 +45,8 @@ var user = {
 		console.log('method');
 	}
 };
-// user.getName();
-// enhanced literal
+user.getName();
+// enhanced literals
 
 
 /**
@@ -52,6 +60,10 @@ function foo() {
 console.log( foo() );
 
 
+/**
+ *  constructor
+ */
+
 // constructor
 function User(name) {
 	var temp = 'temp';
@@ -60,8 +72,12 @@ function User(name) {
 }
 
 var me = new User('Andrei');
-// console.log(me);
+console.log(me);
 
+
+/**
+ *  arrows
+ */
 
 var arrow = function() {
 	console.log('arrow function');

@@ -44,8 +44,8 @@ var nr1 = 1;
 var nr2 = '1';
 
 // implicit type coercion
-// console.log(nr1 == nr2);
-// console.log(nr1 === nr2);
+console.log(nr1 == nr2);
+console.log(nr1 === nr2);
 
 
 /**
@@ -54,19 +54,19 @@ var nr2 = '1';
 
 // to number
 var age = '34';
-// age = parseInt(age);
+age = parseInt(age);
 // age = +age;
-// console.log(age + 1);
+console.log(age + 1);
 
 // to string
 var username = 1122;
-// username = String(username);
+username = String(username);
 // username = '' + username;
-// console.log(0 + username);
+console.log(0 + username);
 
 // to boolean
 var exists = 1;
-// console.log(!!exists);
+console.log(!!exists);
 
 
 /**
@@ -79,11 +79,11 @@ if () {
 	// false branch
 }
 
-// console.log( !!'' );
-// console.log( !!0 );
-// console.log( !!false );
-// console.log( !!null );
-// console.log( !!undefined );
-// console.log( !!NaN );
+console.log( !!'' );
+console.log( !!0 );
+console.log( !!false );
+console.log( !!null );
+console.log( !!undefined );
+console.log( !!NaN );
 
 // "if (typeof)" vs "if ()"

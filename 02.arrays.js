@@ -2,9 +2,6 @@
  *  Arrays
  */
 
-// https://graelaws.files.wordpress.com/2010/08/capture1.jpg
-// http://i.stack.imgur.com/1pQk8.jpg
-
 
 // array literal
 var arr = [1, 2];
@@ -22,7 +19,17 @@ var arr = [1, 2];
 /**
  *  length
  */
+
 arr['a'] = 5;
+console.log( arr.length );
+
+
+/**
+ *  manipulation
+ */
+
+// https://graelaws.files.wordpress.com/2010/08/capture1.jpg
+// http://i.stack.imgur.com/1pQk8.jpg
 
 
 arr.push(3);
@@ -34,6 +41,7 @@ arr.push(4);
 /**
  *  stack (modals on top of each other)
  */
+
 // console.log( arr );
 // console.log( arr.pop() );
 // console.log( arr.pop() );
@@ -43,6 +51,7 @@ arr.push(4);
 /**
  *  queue (process queue, image processing)
  */
+
 // console.log( arr );
 // console.log( arr.shift() );
 // console.log( arr.shift() );
@@ -52,6 +61,7 @@ arr.push(4);
 /**
  *  mixed
  */
+
 // console.log( arr );
 // console.log( arr.pop() );
 // console.log( arr.shift() );
@@ -61,6 +71,7 @@ arr.push(4);
 /**
  *  sub-arrays
  */
+
 // console.log( arr.slice(1, 3) );
 // console.log( arr.splice(1, 2, 5, 6) );
 // console.log( arr );
@@ -72,9 +83,11 @@ arr.push(4);
 // console.log( arr.indexOf(1) );
 
 
+
 /**
  *  filter
  */
+
 var odds = arr.filter(function(item) {
 	return (item % 2) !== 0;
 });
@@ -84,6 +97,7 @@ var odds = arr.filter(function(item) {
 /**
  *  iterations
  */
+
 for (var i = 0; i < arr.length; i += 1) {
 	// console.log(arr[i], i);
 	arr[i] += 10;
@@ -121,4 +135,5 @@ var arr2 = arr.map(function(item, index) {
 /**
  *  typeof
  */
+
 // console.log(typeof arr);
