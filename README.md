@@ -1,22 +1,14 @@
-#JavaScript Fundamentals Workshop
+#tim.js workshop: The Fundamentals, part 1
 
-Welcome to the first JavaScript workshop, organized by [tim.js][timjs]. We will cover some fundamental concepts of ES5, and also touch some new features added in ES6. Here is a summary:
+Welcome to the first JavaScript workshop, organized by [tim.js][timjs]. We will dive into the building blocks of the ECMAScript language, explaining in detail how they work & why is it so important to understand them.
 
-* (very) short history
-* primitives
-* arrays
-* objects
-* functions
-* value vs. reference
-* scope
-* hoisting & TDZ
-* closures
-* strict mode
-* _this_ context
-* typeof vs. instanceof vs. [Class]
-* iterating Arrays & Objects
-* prototypes
-* a small application, to apply the concepts above
+## Content
+
+* __Intro__: short history, JS vs ES;
+* __Primitives__: types, typeof, type casting, falsey values;
+* __Arrays__: literals, stack, queue, filtering, iterating;
+* __Objects__: literals, enhanced literals, property descriptors, json;
+* __Functions__: types, returns, 1st class functions.
 
 ## Prerequisites
 
