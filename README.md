@@ -1,6 +1,6 @@
 # JavaScript Fundamentals Workshop
 
-Welcome to the first JavaScript workshop, organized by [tim.js][timjs]. We will cover some fundamental concepts of ES5, and also touch some new features added in ES6. Here is a summary:
+Welcome to the first JavaScript workshop, organized by [tim.js][timjs]. We will cover some fundamental concepts of ES5, and also touch some new features added in ES6.
 
 ## Content
 
