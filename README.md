@@ -1,4 +1,4 @@
-# JavaScript Fundamentals Workshop
+# tim.js workshop: The Fundamentals, part 1
 
 Welcome to the first JavaScript workshop, organized by [tim.js][timjs].
 
