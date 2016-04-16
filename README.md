@@ -2,7 +2,7 @@
 
 Welcome to the first JavaScript workshop, organized by [tim.js][timjs].
 
-We will dive into the building blocks of the ECMAScript language, explaining in detail how they work & why is it so important to understand them. We will cover some fundamental concepts of ES5, while also touching some new features added in ES6.
+We will dive into the building blocks of the ECMAScript language, the so called "1st class citizens", explaining in detail how they work & why is it so important to understand them. We will cover some fundamental concepts of ES5, while also touching some new features added in ES6.
 
 Tutor: __Andrei Pfeiffer__
 
@@ -25,7 +25,7 @@ Here's a list of things you need:
 ## Who is it for?
 
 - Beginner & Intermediate JavaScript developers who want to discover the language at a deeper level
-- Advanced developers, who switched to JavaScript recently and want to understand its mechanics
+- Advanced developers, who switched to JavaScript and want to understand its mechanics
 
 ## Setup
 
