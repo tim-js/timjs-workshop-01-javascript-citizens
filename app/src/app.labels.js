@@ -2,15 +2,11 @@ var APP = APP || {};
 
 APP.labels = {
 
-    list: ['xx', 'yy'],
-
     init() {
         $('form').on('submit', (e) => {
             e.preventDefault();
-            this.add();
+            APP.labels.add();
         });
-
-        this.list.forEach(name => this.append(name));
     },
 
     add() {
@@ -20,8 +16,7 @@ APP.labels = {
             return alert('Label name must be filled in');
         }
 
-        this.list.push(value);
-        this.append(value);
+        APP.labels.append(value);
         $('input').val('').focus();
     },
 
