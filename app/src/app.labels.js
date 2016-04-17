@@ -16,10 +16,9 @@ APP.labels = {
     add() {
         var value = $('input').val();
 
-        // if (!value) {
-        //     alert('Label name must be filled in');
-        //     return;
-        // }
+        if (!value) {
+            return alert('Label name must be filled in');
+        }
 
         this.list.push(value);
         this.append(value);

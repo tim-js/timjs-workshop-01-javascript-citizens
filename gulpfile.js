@@ -32,7 +32,10 @@ gulp.task('jsSrc', ['clean'], () => {
 // process JS vendor files
 gulp.task('jsVendor', ['clean'], () => {
     return gulp
-        .src(`${BASE_PATH}/vendor/*.js`)
+        .src([
+            `${BASE_PATH}/vendor/jquery*.js`,
+            `${BASE_PATH}/vendor/*.js`,
+        ])
         .pipe(concat('vendor.js'))
         .pipe(gulp.dest(`${BASE_PATH}/dist`));
 });
