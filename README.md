@@ -1,4 +1,4 @@
-# tim.js workshop: The Fundamentals, part 1
+# tim.js workshop 01: The Citizens of ECMAScript
 
 Welcome to the first JavaScript workshop, organized by [tim.js][timjs].
 
