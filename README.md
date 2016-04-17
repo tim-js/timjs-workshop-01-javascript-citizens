@@ -72,6 +72,6 @@ npm start
 
 This should display a URL in the console, where you can load the project page.
 
-[download_repo]: https://github.com/andreipfeiffer/timjs-workshop-fundamentals-part1/archive/master.zip
+[download_repo]: https://github.com/andreipfeiffer/timjs-workshop-01-the-citizens.git
 [download_node]: https://nodejs.org/en/download/
 [timjs]: http://timjs.ro
