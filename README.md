@@ -58,6 +58,20 @@ If you don't have git, you can __[download this repo][download_repo]__ and unzip
 
 NOTE: if you have a GitHub account, you can fork this repo, so you can commit your personal changes.
 
+### 3. Install dependencies
+
+```
+npm install
+```
+
+### 4. Run project
+
+```
+npm start
+```
+
+This should display a URL in the console, where you can load the project page.
+
 [download_repo]: https://github.com/andreipfeiffer/timjs-workshop-fundamentals-part1/archive/master.zip
 [download_node]: https://nodejs.org/en/download/
 [timjs]: http://timjs.ro

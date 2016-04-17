@@ -33,7 +33,7 @@ APP.labels = {
 
         $('<li class="list-group-item"></li>')
             .text(value)
-            .appendTo( $('ol') )
+            .appendTo( $('ol') );
     }
 };
 
