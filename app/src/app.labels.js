@@ -30,8 +30,3 @@ APP.labels = {
             .appendTo( $('ol') );
     }
 };
-
-
-
-// how OOP really is
-// https://pbs.twimg.com/media/CY3VcpdUkAE9dum.png:large
