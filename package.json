@@ -1,7 +1,7 @@
 {
-    "name": "timjs-workshop-the-citizens",
+    "name": "javascript-citizens",
     "version": "1.0.0",
-    "description": "tim.js workshop 01: The Citizens of ECMAScript",
+    "description": "tim.js workshop 01: JavaScript Citizens",
     "main": "index.html",
     "scripts": {
         "start": "node_modules/.bin/gulp"
