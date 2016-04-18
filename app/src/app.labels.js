@@ -20,8 +20,8 @@ APP.labels = {
 
         $('input').val('').focus();
 
-        APP.labels.append(value);
         APP.labels.list.push(value);
+        APP.labels.append(value);
     },
 
     append(value) {

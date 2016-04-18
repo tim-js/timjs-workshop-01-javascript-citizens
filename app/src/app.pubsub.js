@@ -1,4 +1,3 @@
 var APP = APP || {};
 
-APP.pubsub = {
-};
+APP.pubsub = {};

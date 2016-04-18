@@ -14,7 +14,11 @@ gulp.task('jsSrc', ['clean'], () => {
     // return the stream
     return gulp
         // read source files
-        .src(`${BASE_PATH}/src/*.js`)
+        .src([
+            `${BASE_PATH}/src/app.pubsub.js`
+            `${BASE_PATH}/src/app.*.js`
+            `${BASE_PATH}/src/app.js`
+        ])
         // start sourcemaps
         .pipe(sourcemaps.init())
         // transpile using Babel to ES5
