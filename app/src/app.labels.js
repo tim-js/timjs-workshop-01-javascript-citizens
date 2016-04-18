@@ -2,6 +2,8 @@ var APP = APP || {};
 
 APP.labels = {
 
+    list: [],
+
     init() {
         $('form').on('submit', (e) => {
             e.preventDefault();
@@ -16,8 +18,10 @@ APP.labels = {
             return alert('Label name must be filled in');
         }
 
-        APP.labels.append(value);
         $('input').val('').focus();
+
+        APP.labels.append(value);
+        APP.labels.list.push(value);
     },
 
     append(value) {
