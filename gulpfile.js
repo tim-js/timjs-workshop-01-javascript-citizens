@@ -15,16 +15,14 @@ gulp.task('jsSrc', ['clean'], () => {
     return gulp
         // read source files
         .src([
-            `${BASE_PATH}/src/app.pubsub.js`
-            `${BASE_PATH}/src/app.*.js`
+            `${BASE_PATH}/src/app.pubsub.js`,
+            `${BASE_PATH}/src/app.*.js`,
             `${BASE_PATH}/src/app.js`
         ])
         // start sourcemaps
         .pipe(sourcemaps.init())
         // transpile using Babel to ES5
-        .pipe(babel({
-            presets: ['es2015']
-        }))
+        .pipe(babel({ presets: ['es2015'] }).on('error', handleError))
         // concatenate all source files into a single file
         .pipe(concat('bundle.js'))
         // output sourcemaps
@@ -70,3 +68,8 @@ gulp.task('default', ['jsVendor', 'jsSrc'], () => {
     // when JS files change, compile and then reload browsers
     gulp.watch(`${BASE_PATH}/src/*.js`, ['jsWatch']);
 });
+
+function handleError(err) {
+    console.log(err.toString());
+    this.emit('end');
+}
