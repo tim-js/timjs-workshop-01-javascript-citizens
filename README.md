@@ -1,4 +1,4 @@
-# tim.js workshop 01: The Citizens of ECMAScript
+# tim.js workshop 01: JavaScript Citizens
 
 Welcome to the first JavaScript workshop, organized by [tim.js][timjs].
 
@@ -51,7 +51,7 @@ cd [PROJECT_NAME]
 Second, you need to clone this repository. If you have git installed, you can:
 
 ```
-git clone https://github.com/andreipfeiffer/timjs-workshop-01-the-citizens.git ./
+git clone https://github.com/andreipfeiffer/timjs-workshop-01-javascript-citizens.git ./
 ```
 
 If you don't have git, you can __[download this repo][download_repo]__ and unzip it in your PROJECT_NAME folder.
@@ -72,6 +72,6 @@ npm start
 
 This should display a URL in the console, where you can load the project page.
 
-[download_repo]: https://github.com/andreipfeiffer/timjs-workshop-01-the-citizens/archive/master.zip
+[download_repo]: https://github.com/andreipfeiffer/timjs-workshop-01-javascript-citizens/archive/master.zip
 [download_node]: https://nodejs.org/en/download/
 [timjs]: http://timjs.ro
