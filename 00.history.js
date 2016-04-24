@@ -11,7 +11,7 @@
 1998 - ES2 (editorial changes, to conform to standard)
      - DOM (level 1, W3C standard)
 
-1999 - ES3 (RexExp, try, catch, etc)
+1999 - ES3 (Regex, try, catch, etc)
 
 2000
 
@@ -43,7 +43,7 @@
 
 2014
 
-2015 - ES6 (aka "ES2015": classes, modules, generators, iterators, arrow functions, collections, promises, proxies, reflection)
+2015 - ES6 (aka "ES2015": classes, modules, generators, iterators, arrows, promises, etc)
 
 2016 - ES7 (aka "ES2016": array.includes, exponentiator operator)
 
