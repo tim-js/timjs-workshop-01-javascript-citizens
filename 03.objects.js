@@ -5,8 +5,8 @@
 
 // object literal
 var me = {
-	firstName: 'Andrei',
-	lastName : 'Pfeiffer',
+	firstName  : 'Andrei',
+	'last Name': 'Pfeiffer',
 	age: 34,
 	skills: [
 		{ name: 'html', level: 8 },
@@ -23,8 +23,8 @@ var me = {
  *  usage
  */
 
-// data structures (ES6 Set/Map)
-// code structure (methods)
+// data structures/hash/hash map (ES6 Set/Map)
+// code structure/packaging (methods)
 
 
 /**
@@ -67,10 +67,19 @@ var name = 'Name';
  */
 
 // console.log( Object.getOwnPropertyDescriptor(me, 'age') );
+
 // Object.defineProperty(me, 'age', {
 // 	writable: false
 // });
+// me.age = 25; // cannot change
 
+// Object.defineProperty(me, 'age', {
+// 	configurable: false
+// });
+// Object.defineProperty(me, 'age', {
+// 	writable: true
+// });
+// cannot reconfigure
 
 /**
  *  freezing (seal, preventExtensions)
@@ -99,14 +108,20 @@ for (var prop in you) {
 	// console.log(item);
 }
 
+Object.defineProperty(you, 'firstName', {
+	enumerable: false
+});
+// console.log( Object.keys(you) );
+// console.log( Object.getOwnPropertyNames(you) );
+
 
 /**
  *  JSON - JavaScript Object Notation
  */
 
-var data = { name: 'Andrei', age: 34 };
+var data = { name: 'Andrei', age: 34, };
 // console.log( JSON.stringify( data ) );
-var json = '{ "name": "Andrei", "age": 34 }';
+var json = '{ "name": "Andrei", "age": 34, }';
 // console.log( JSON.parse( json ) );
 
 
@@ -116,6 +131,7 @@ var json = '{ "name": "Andrei", "age": 34 }';
 
 // removes reference, clears memory
 // me = null;
+var orphan = Object.create( null );
 
 
 /**
