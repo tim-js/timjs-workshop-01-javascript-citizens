@@ -24,9 +24,9 @@ var namedExpression = function funcName() {
 };
 // namedExpression();
 
-setTimeout(function funcName() {
-	error;
-}, 500);
+// setTimeout(function funcName() {
+// 	error;
+// }, 500);
 
 
 // IIFE Immediate Invoked Function Expression
@@ -54,8 +54,9 @@ user.getName();
  */
 
 function foo() {
-	return 'value';
-	return 1;
+	// early return
+	return 'first';
+	return 'second';
 }
 console.log( foo() );
 
@@ -79,16 +80,20 @@ console.log(me);
  *  arrows
  */
 
-var arrow = function() {
-	console.log('arrow function');
-};
+// var arrow = function() {
+// 	console.log('arrow function');
+// };
 var arrow = () => {
 	console.log('arrow function');
 };
+// var arrow = () => 1;
+// var arrow = () => { return 1; };
+
+// arrow();
 // no paranthesis for one argument
 // implicit return
 
 
 /**
- *  first-class citizen
+ *  first-class functions
  */
