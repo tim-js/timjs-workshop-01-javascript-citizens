@@ -22,6 +22,8 @@ APP.labels = {
 
         APP.labels.list.push(value);
         APP.labels.append(value);
+
+        APP.pubsub.publish('addLabel', APP.labels.list.length);
     },
 
     append(value) {

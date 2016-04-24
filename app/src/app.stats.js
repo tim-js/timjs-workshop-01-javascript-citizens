@@ -7,3 +7,7 @@ APP.stats = {
     }
 
 };
+
+APP.pubsub.subscribe('addLabel', (nr) => {
+	APP.stats.update(nr);
+});
