@@ -53,8 +53,9 @@ console.log(nr1 === nr2);
  */
 
 // to number
-var age = '34';
+var age = '34.5';
 age = parseInt(age);
+age = parseFloat(age);
 // age = +age;
 console.log(age + 1);
 
@@ -87,3 +88,15 @@ console.log( !!undefined );
 console.log( !!NaN );
 
 // "if (typeof)" vs "if ()"
+
+if (
+	typeof age !== 'undefined' &&
+	parseInt(age) !== NaN &&
+	parseInt(age) > 0
+) {
+	// code
+}
+
+if ( parseInt(age) ) {
+	// code
+}
