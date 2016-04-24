@@ -11,6 +11,10 @@ var arr = [1, 2];
 /**
  *  element access
  */
+// zero based index
+// console.log( arr[0] );
+// arr[2] = 3;
+// arr[arr.length] = 4;
 
 // define higher index element
 // arr[5] = 5;
@@ -21,7 +25,7 @@ var arr = [1, 2];
  */
 
 arr['a'] = 5;
-console.log( arr.length );
+// console.log( arr.length );
 
 
 /**
@@ -137,3 +141,4 @@ var arr2 = arr.map(function(item, index) {
  */
 
 // console.log(typeof arr);
+// console.log( Array.isArray(arr) );
