@@ -53,7 +53,7 @@ var arr = [1, 2];
 
 
 /**
- *  other usefull methods
+ *  other useful methods
  */
 
 
