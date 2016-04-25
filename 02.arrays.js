@@ -122,7 +122,7 @@ var arr2 = arr.map(function(item, index) {
 
 
 /**
- *  other usefull methods
+ *  other useful methods
  */
 
 // find, findIndex
@@ -140,5 +140,5 @@ var arr2 = arr.map(function(item, index) {
  *  typeof
  */
 
-// console.log(typeof arr);
+// console.log( typeof arr );
 // console.log( Array.isArray(arr) );
