@@ -132,10 +132,3 @@ var json = '{ "name": "Andrei", "age": 34, }';
 // removes reference, clears memory
 // me = null;
 var orphan = Object.create( null );
-
-
-/**
- *  typeof
- */
-
-// console.log(typeof me);
