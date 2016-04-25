@@ -72,8 +72,3 @@ var me = {
 /**
  *  null
  */
-
-
-/**
- *  typeof
- */
