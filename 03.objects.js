@@ -129,6 +129,15 @@ var json = '{ "name": "Andrei", "age": 34, }';
  *  null
  */
 
+// initial / empty value
+// let obj = null;
+// ... later obj = {...};
+
+// !!{}   === true;
+// !!null === false;
+
 // removes reference, clears memory
 // me = null;
+
+// objects that don't inherit from Object
 var orphan = Object.create( null );
