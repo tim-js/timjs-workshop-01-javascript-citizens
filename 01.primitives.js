@@ -17,6 +17,13 @@ var symb  = Symbol('some description');
 
 
 /**
+ *  null vs undefined
+ */
+// undefined = non existence, missing
+// null      = non value, emptiness (in regard to objects)
+
+
+/**
  *  variables
  */
 
