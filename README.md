@@ -50,14 +50,14 @@ cd [PROJECT_NAME]
 
 Second, you need to clone this repository. You can do it in multiple ways:
 
-a) __with git:__
+__a) with git:__
 ```
 git clone https://github.com/andreipfeiffer/timjs-workshop-01-javascript-citizens.git ./
 ```
 
 NOTE: if you have a GitHub account, you can fork this repo, so you can commit your personal changes.
 
-b) __without git__
+__b) without git__
 
 __[Download][download_repo]__ this repo and unzip it in your PROJECT_NAME folder.
 
