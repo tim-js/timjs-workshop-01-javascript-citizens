@@ -57,7 +57,7 @@ git clone https://github.com/andreipfeiffer/timjs-workshop-01-javascript-citizen
 
 NOTE: if you have a GitHub account, you can fork this repo, so you can commit your personal changes.
 
-__b) without git__
+__b) without git:__
 
 __[Download][download_repo]__ this repo and unzip it in your PROJECT_NAME folder.
 
