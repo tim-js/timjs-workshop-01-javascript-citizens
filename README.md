@@ -48,15 +48,20 @@ cd [PROJECT_NAME]
 
 ### 2. Clone project skeleton
 
-Second, you need to clone this repository. If you have git installed, you can:
+Second, you need to clone this repository. You can do it in multiple ways:
 
+a) __with git:__
 ```
 git clone https://github.com/andreipfeiffer/timjs-workshop-01-javascript-citizens.git ./
 ```
 
-If you don't have git, you can __[download this repo][download_repo]__ and unzip it in your PROJECT_NAME folder.
-
 NOTE: if you have a GitHub account, you can fork this repo, so you can commit your personal changes.
+
+b) __without git__
+
+__[Download][download_repo]__ this repo and unzip it in your PROJECT_NAME folder.
+
+
 
 ### 3. Install dependencies
 
