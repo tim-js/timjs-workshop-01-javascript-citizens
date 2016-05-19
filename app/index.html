@@ -3,33 +3,54 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>tim.js workshop: The Citizens</title>
+        <title>tim.js workshop: JavaScript Citizens</title>
 
         <link rel="stylesheet" href="vendor/bootstrap.min.css">
     </head>
     <body>
         <div class="container">
 
-            <h2>tim.js workshop: The Citizens of ECMAScript</h2>
+            <h1 class="text-center">
+                <a href="https://github.com/andreipfeiffer/timjs-workshop-01-javascript-citizens">
+                    <img src="javascript-citizens.svg" title="JavaScript Citizens workshop" width="200">
+                </a>
+            </h1>
 
             <br><br>
 
-            <!-- <div class="well">
-                <strong>Stats:</strong> <span id="nr">0</span> labels
-            </div> -->
-
             <div class="row">
-                <form class="form-inline col-sm-12">
-                    <input type="text" class="form-control" placeholder="label name">
-                    <button type="submit" class="btn btn-default">Add Label</button>
+                <form class="form-inline col-sm-12 text-center" id="new-user">
+                    <input type="text" class="form-control" placeholder="User name" id="name">
+                    <input type="text" class="form-control" placeholder="Age" id="age">
+                    <button type="submit" class="btn btn-primary">Add User</button>
                 </form>
             </div>
 
             <hr>
 
+            <!-- <div class="well">
+                <form class="form-inline">
+                    <label>Users older than:</label>
+                    <input type="text" class="form-control" placeholder="min age" id="min-age">
+                    <button type="button" class="btn btn-default" id="count-users">Count</button>
+
+                    <div class="btn-group pull-right" role="group">
+                        <button type="button" class="btn btn-default" id="sort-by-age">Sort by age</button>
+                        <button type="button" class="btn btn-default" id="level-up">Level Up</button>
+                    </div>
+                </form>
+            </div> -->
+
+
             <div class="row">
-                <ol class="col-sm-4"></ol>
+                <ol class="col-sm-4 col-sm-offset-4"></ol>
             </div>
+
+            <hr>
+
+            <p class="text-center text-muted">
+                a <a href="http://timjs.ro">tim.js</a> workshop
+            </p>
 
         </div>
 
